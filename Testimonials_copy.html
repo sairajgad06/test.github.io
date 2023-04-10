@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Testimonials</title>
+
+        <!-- font awesome cdn link  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+        <!-- custom css file link  -->
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+        <!-- <link rel="stylesheet" href="diplay.css"> -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <style>
+            /* Body Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: #111;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #222;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+label[for="menu-bar"] {
+  display: none;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar a {
+  display: block;
+  padding: 20px 30px;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #333;
+}
+
+/* Home Section Styles */
+.Rectangle_1274_ {
+  width: 100%;
+  height: 50px;
+  fill: url(#grad);
+}
+
+.toggle {
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.welcome {
+  text-align: center;
+ 
+}
+
+.welcome h3 {
+  font-size: 36px;
+  font-weight: bold;
+  
+  
+}
+
+.welcome h2 {
+  font-size: 28px;
+  font-weight: normal;
+  opacity: 0.8;
+}
+
+.dcontainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 50px;
+  /* border-radius: 20px; */
+  background-color: #000;
+}
+
+.video-container {
+  position: relative;
+  
+}
+
+.responsive-video {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  /* padding-bottom: 56.25%; */
+  border-radius: 10px;
+  
+}
+
+.responsive-video video {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-container h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.video-container h2 {
+  font-size: 20px;
+  font-weight: normal;
+  opacity: 0.8;
+  margin-top: 0;
+}
+
+/* Footer Styles */
+footer {
+  padding: 20px 50px;
+  text-align: center;
+  background-color: #222;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+        </style>
+    </head>
+    <body>
+
+        <!-- header section starts  -->
+
+        <header>
+
+            <!-- <a href="#" class="logo"><span>Atos</span>OneCloud</a> -->
+            <a href="Display.jsp" class="logo">
+                <img src="images/OneCloud-white.png" width="150"alt="">
+            </a>
+           
+
+            <label for="menu-bar" class="fas fa-bars"></label>
+            <!-- <a href="#" class="btn">Sign In</a> -->
+            <nav class="navbar">
+                <a href="Display.jsp">Home</a>
+
+
+            </nav>
+
+        </header>
+
+        <!-- header section ends -->
+
+
+        <!-- home section starts  -->
+
+
+        <!-- <i class='bx bx-chevron-right toggle'></i> -->
+        <!-- <svg class="Rectangle_1274_">
+        <linearGradient id="Rectangle_1274_" spreadMethod="pad" x1="0.5" x2="0.5" y1="0" y2="1">
+        <stop offset="0" stop-color="#0596ff" stop-opacity="1"></stop>
+        <stop offset="1" stop-color="#0f0f0f" stop-opacity="0"></stop>
+        </linearGradient>
+        <rect id="Rectangle_1274_" rx="0" ry="0" x="0" y="0" width="5000" height="50">
+        </rect>
+        </svg> -->
+
+
+        <!-- home section ends -->
+        <div class="welcome">
+            <h3>Testimonials</h3>
+            <!--<h2>Some tips to support your onboarding</h2>-->
+
+        </div>
+
+
+        <div class="dcontainer">
+
+            <div class="video-container">
+
+            <div class="responsive-video">
+                    <video preload="metadata" id="video1" onplay="goToStart()" controls src="videos/Abanob Fakhory_ Azure DevOps Engineer.mp4#t=15" ></video><br>
+                    
+            </div>
+                 <h1>Abanob Fakhory</h1>
+                <h2>Azure DevOps Engineer</h2>
+            </div>
+            
+
+             <div class="video-container">
+
+            <div class="responsive-video">
+                    <video preload="metadata" id="video1" onplay="goToStart()" controls src="videos/Agata Myga_AtosOneCloud.mp4#t=15"></video><br>
+                    
+            </div>
+                 <h1>Agata Myga</h1>
+                <h2>AtosOneCloud</h2>
+            </div>
+            
+             <div class="video-container">
+
+            <div class="responsive-video">
+                    <video preload="metadata" id="video1" onplay="goToStart()" controls src="videos/George Budisan_Jnr IaC Engineer on OTCP Project.mp4#t=15"></video><br>
+                    
+            </div>
+                 <h1>George Budisan</h1>
+                <h2>Jnr IaC Engineer on OTCP Project</h2>
+            </div>
+            
+             <div class="video-container">
+
+            <div class="responsive-video">
+                    <video preload="metadata" id="video1" onplay="goToStart()" controls src="videos/Jenni Postlethwaite_Agile Delivery.mp4#t=15"></video><br>
+                    
+            </div>
+                 <h1>Jenni Postlethwaite</h1>
+                <h2>Agile Delivery</h2>
+            </div>
+            
+             <div class="video-container">
+
+            <div class="responsive-video">
+                    <video preload="metadata" id="video1" onplay="goToStart()" controls src="videos/Maelis Hammouche_Cloud and DevOps Consultant.mp4#t=15"></video><br>
+                    
+            </div>
+                 <h1>Maelis Hammouche</h1>
+                <h2>Cloud and DevOps Consultant</h2>
+            </div> 
+            
+             <div class="video-container">
+
+            <div class="responsive-video">
+                    <video preload="metadata" id="video1" onplay="goToStart()" controls src="videos/Mark Ross_ Global Chief Architect _ AWS.mp4#t=15"></video><br>
+                    
+            </div>
+                 <h1>Mark Ross</h1>
+                <h2> Global Chief Architect AWS</h2>
+            </div>
+
+            
+             <div class="video-container">
+
+            <div class="responsive-video">
+                    <video preload="metadata" id="video1" onplay="goToStart()" controls src="videos/Stefano d'Ermenegildo_Junior Cloud Architect.mp4#t=15"></video><br>
+                    
+            </div>
+                 <h1>Stefano d'Ermenegildo</h1>
+                <h2>Junior Cloud Architect</h2>
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- footer section starts  -->
+
+
+        <!-- footer section ends -->
+        		<script>
+                    function goToStart(){
+    if (document.getElementById('video1').currentTime == 15){
+    document.getElementById('video1').currentTime = 0;
+    }
+}
+                </script>
+    </body>
+</html>
